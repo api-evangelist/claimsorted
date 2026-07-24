@@ -1,8 +1,14 @@
 aid: claimsorted
 name: ClaimSorted
-description: 'ClaimSorted is a company surfaced as a portfolio company of atomico and added to the API
-  Evangelist network as a stub for enrichment. Sector: insurtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'ClaimSorted is a tech-enabled third-party administrator (TPA) for insurance
+  claims, combining human claims-handling expertise with proprietary technology to process
+  claims faster while lowering operating costs and fraud leakage for MGAs and insurance
+  carriers. It offers a white-label electronic Notice of Loss (eNOL) intake system, a
+  policyholder Claims Portal for status tracking and document upload, automated assessment
+  workflows, and fraud-detection algorithms, with reporting delivered daily, weekly, or
+  monthly and as live data feeds over SFTP/API. ClaimSorted supports commercial and personal
+  property, auto, small commercial, general liability, accident & health, travel, and warranty
+  lines of business, serving 30+ clients including Axis and Lloyd''s.'
 url: https://raw.githubusercontent.com/api-evangelist/claimsorted/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - atomico
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/666725ccaf80f4386110272b/66896f0256399456a216cac3_open_img.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Insurtech
+- Insurance
+- Claims
+- Claims Management
+- Third-Party Administrator
+- Fraud Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.claimsorted.com
+- type: Support
+  url: mailto:info@claimsorted.com
+- type: Careers
+  url: https://jobs.ashbyhq.com/claimsorted
+- type: TermsOfService
+  url: https://www.claimsorted.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.claimsorted.com/privacy-policy
+- type: DomainSecurity
+  url: security/claimsorted-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
